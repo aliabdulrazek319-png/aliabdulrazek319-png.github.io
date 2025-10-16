@@ -1,4 +1,4 @@
-# aliabdulrazek319.github.io[homecoming_invite_website_single_file.html](https://github.com/user-attachments/files/22940568/homecoming_invite_website_single_file.html)
+r# aliabdulrazek319.github.io[homecoming_invite_website_single_file.html](https://github.com/user-attachments/files/22940568/homecoming_invite_website_single_file.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +9,7 @@
     :root{
       --bg1:#ff9a9e; --bg2:#fad0c4; --bg3:#fbc2eb; --bg4:#a18cd1;
       --btn:#ffffff; --btnText:#333; --yes:#24d17e; --no:#ff5d73;
-    }
+    } 
     *{box-sizing:border-box}
     html,body{height:100%}
     body{
@@ -127,7 +127,7 @@
   <div class="confetti" id="confetti" aria-hidden="true"></div>
 
   <footer>
-    <span>Made with 🐵💖 by <span id="yourName">Someone who thinks you're amazing</span></span>
+    <span>Made with 🐵💖 by <span id="Monkey Smiggie">Someone who thinks you're amazing</span></span>
   </footer>
 
   <script>
