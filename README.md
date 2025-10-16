@@ -86,7 +86,7 @@ r# aliabdulrazek319.github.io[homecoming_invite_website_single_file.html](https:
   <!-- Monkey Sticker Field -->
   <div class="monkeys" id="monkeys" aria-hidden="true"></div>
 
-  <h1 class="title">✨ Hey <span id="herName">You</span>… Homecoming? ✨</h1>
+  <h1 class="title">✨ Hey <span id="Monkey Smiggie">You</span>… Homecoming? ✨</h1>
   <p class="subtitle">I made this just for you 💖</p>
 
   <div class="wrap">
@@ -135,8 +135,8 @@ r# aliabdulrazek319.github.io[homecoming_invite_website_single_file.html](https:
       Change the placeholders below to personalize:
     */
     const SETTINGS = {
-      herName: "[Her Name]",            // shows in title
-      yourName: "[Your Name]",          // footer credit
+      Monkey Smiggie: "[Her Name]",            // shows in title
+      yourName: "[]",          // footer credit
       // YouTube embed URL (replace in the iframe above, or set here & we inject):
       videoEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1",
       introMessage: "Because you light up every room, and I wanted to make something fun and a little extra to ask you properly. If you say yes, I promise the best night, the best photos, and unlimited snacks. If you say no… my browser might accidentally crash 😅.",
@@ -145,7 +145,7 @@ r# aliabdulrazek319.github.io[homecoming_invite_website_single_file.html](https:
     };
 
     // Apply quick personalization
-    document.getElementById('herName').textContent = SETTINGS.herName;
+    document.getElementById('Monkey Smiggie').textContent = SETTINGS.Monkey Smiggie;
     document.getElementById('yourName').textContent = SETTINGS.yourName;
     document.getElementById('message').textContent = SETTINGS.introMessage;
     if(SETTINGS.videoEmbedUrl){
@@ -249,7 +249,7 @@ r# aliabdulrazek319.github.io[homecoming_invite_website_single_file.html](https:
 
     function niceFinale(){
       const h = document.querySelector('.title');
-      h.innerHTML = `🎉 Yay! See you at Homecoming, <strong>${SETTINGS.herName || 'You'}</strong>! 🎉`;
+      h.innerHTML = `🎉 Yay! See you at Homecoming, <strong>${SETTINGS.Monkey Smiggie || 'You'}</strong>! 🎉`;
       document.querySelector('.subtitle').textContent = 'You just made my week. Get ready for the best night.';
     }
 
