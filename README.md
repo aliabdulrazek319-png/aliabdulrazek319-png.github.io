@@ -135,7 +135,7 @@ r# aliabdulrazek319.github.io[homecoming_invite_website_single_file.html](https:
       Change the placeholders below to personalize:
     */
     const SETTINGS = {
-      Monkey Smiggie: "[Her Name]",            // shows in title
+      Monkey Smiggie: "[ Monkey Smiggie]",            // shows in title
       yourName: "[]",          // footer credit
       // YouTube embed URL (replace in the iframe above, or set here & we inject):
       videoEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1",
